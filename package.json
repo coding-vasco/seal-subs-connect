@@ -1,0 +1,17 @@
+{
+  "name": "seal-subscriptions-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  }
+}
